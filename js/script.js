@@ -38,14 +38,15 @@ async function callAPIByMovieName(name){
 }
 async function select(element){
     let selectedUserData = element.textContent;
-    const movies = await callAPIByMovieName(selectedUserData);
+    let movies = await callAPIByMovieName(selectedUserData);
+    movies = movies.filter((movie) => movie.Poster != "N/A");
     showMovies(movies);
     inputBox.value = selectedUserData;
     searchWrapper.classList.remove('active');
     suggBox.innerHTML = "";
 }
 function showMovies(movies){
-    const moviesData = movies.map((movie) =>MovieComponent(movie.Poster));
+    const moviesData = movies.map((movie) =>MovieComponent(movie?.Poster));
     moviesWrapper.classList.add("active");
     moviesWrapper.innerHTML = moviesData.join('');
 }

@@ -9,10 +9,16 @@ body{
     background: #644bff;
     padding: 0 20px;
 }
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #efefef;
+    margin-top: 150px;
+}
 
 .wrapper{
     max-width: 450px;
-    margin: 150px auto;
+    margin: 42px auto;
 }
 .wrapper .search-input{
     position: relative;
@@ -52,7 +58,7 @@ body{
     overflow-y: auto;
     opacity: 0;
     pointer-events: none;
-
+    z-index: 1000;
 }
 .search-input.active .autocom-box{
     padding: 10px 8px;
