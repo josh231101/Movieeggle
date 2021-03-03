@@ -1,12 +1,12 @@
   # MOVIEEGGLE :movie_camera:
-![Badge for GitHub](https://img.shields.io/github/languages/top/jordanwhunter/readme-generator?style=flat&logo=appveyor) 
+ ![movie](https://user-images.githubusercontent.com/47585614/109866578-0dafe000-7c2b-11eb-8fc7-d00b9431d5a9.gif)<br>
 
-[![usage video](readme-generator-tutorial.gif)](https://drive.google.com/file/d/1232DaxI1sQnfvQHYwUyXUkJJIgingyUw/view?usp=sharing "Click Me!")<br><br>
-  
+![Badge for GitHub](https://img.shields.io/github/languages/top/jordanwhunter/readme-generator?style=flat&logo=appveyor) <br>
 
 
-  ## Description 
-  
+
+## Description 
+ 
   Movieeggle is a simple web application that allows you to search for movies like Google does using the OMDb API, then when you click a search you will get a beatiful box with all the results! It's super simple and it was created with pure Vanilla JS.
 
 
@@ -46,7 +46,7 @@
   ## Tests
   
   
-  tODO: Use jest to do unit tests.
+  :pencil2: TODO: Use jest to do unit tests.
   
   ## License
   
