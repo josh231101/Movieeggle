@@ -1,1 +1,0 @@
-module.exports = "http://www.omdbapi.com/?i=tt3896198&apikey=f33d65c8";
