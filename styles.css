@@ -28,6 +28,7 @@ h1{
     box-shadow:  0px 1px 5px 3px rgba(0,0,0,0.12);
 }
 .search-input input{
+    position: relative;
     height: 55px;
     width: 100%;
     outline: none;
@@ -35,7 +36,7 @@ h1{
     border-radius: 5px;
     padding: 0 60px 0 20px;
     font-size: 18px;
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
 }
 
 .search-input .icon{
@@ -61,10 +62,16 @@ h1{
     z-index: 1000;
 }
 .search-input.active .autocom-box{
+    position: absolute;
     padding: 10px 8px;
     opacity: 1;
     pointer-events: auto;
-
+    background: #fff;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+}
+.search-input.active input{
+    border-radius: 5px 5px 0 0 !important;
 }
 .autocom-box li{
     list-style: none;
