@@ -1,7 +1,8 @@
   # MOVIEEGGLE :movie_camera:
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/jordanwhunter/readme-generator?style=flat&logo=appveyor) 
+![Badge for GitHub](https://img.shields.io/github/languages/top/jordanwhunter/readme-generator?style=flat&logo=appveyor) 
+
+[![usage video](readme-generator-tutorial.gif)](https://drive.google.com/file/d/1232DaxI1sQnfvQHYwUyXUkJJIgingyUw/view?usp=sharing "Click Me!")<br><br>
   
-<img width="408" alt="Screen Shot 2020-10-21 at 11 50 18 PM" src="https://user-images.githubusercontent.com/69367907/96822634-86d73500-13f8-11eb-80f3-91c03fdd6d41.png">
 
 
   ## Description 
@@ -18,11 +19,13 @@
   
 
   ## Features
-  :movie_camera: Fetch API.<br>
-  :movie_camera: OMDb API.<br>
-  :movie_camera: Vanilla JS.<br>
-  :movie_camera: Search for movies, series and more and get real time answers from API.<br>
-  :movie_camera: Display all the poster if exists.<br>
+:movie_camera: Fetch API.<br>
+:movie_camera: OMDb API.<br>
+:movie_camera: Vanilla JS.<br>
+:movie_camera: Search for movies, series and more and get real time answers from API.<br>
+:movie_camera: Display all the poster if exists.<br>
+
+<img width="408" alt="Screenshot of Movieeggle" src="https://i.ibb.co/zVMXJd1/Screenshot-from-2021-03-03-13-48-45.png">
 
   ## Installation
   
