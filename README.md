@@ -58,5 +58,5 @@
   
   For any questions, please contact me with the information below:
  
-  GitHub: [@jos231101](https://api.github.com/users/jos231101)
+  GitHub: [@josh231101](https://api.github.com/users/josh231101)
   
